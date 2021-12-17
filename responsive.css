@@ -64,81 +64,38 @@
     width: 85%;
   }
   main .About .about-left h1 {
-    font-size: 53px;
+    font-size: 43px;
   }
   main .About .about-right {
     display: flex;
     justify-content: flex-start;
   }
-  main .About .about-right img {
-    width: 50vh;
+  main .About .about-right .about-image {
+    width: 100%;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 422px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   main .About {
-    margin: 0px auto;
-    width: 80%;
     grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    width: 80%;
   }
-  main .About .about-right {
-    justify-content: flex-start;
+
+  main .About .about-left h1 {
+    font-size: 43px;
+    text-align: center;
   }
-  main .About .about-right {
-    display: flex;
-    justify-content: center;
-  }
-  main .About .about-right img {
-    width: 50vh;
-  }
-}
-@media screen and (min-width: 341px) and (max-width: 421px) {
-  main .About {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 422px) and (max-width: 920px) {
-  main .About {
-    margin: 0px auto;
-    width: 60%;
-    grid-template-columns: 5fr;
-  }
-  main .About .about-right {
-    justify-content: flex-start;
-  }
-  main .About .about-right img {
-    width: 50vh;
-  }
-}
-@media screen and (min-width: 704px) and (max-width: 920px) {
-  main .about-left p {
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.76);
-    margin-top: 7%;
-    width: 100vh;
-  }
-  main .About .about-right img {
-    width: 50vh;
-    height: 75vh;
+  main .About .about-left p {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
   }
   main .About .about-right {
     display: flex;
     justify-content: center;
   }
-}
-@media screen and (min-width: 654px) and (max-width: 701px) {
-  main .about-left p {
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.76);
-    margin-top: 7%;
-    width: 80vh;
-  }
-  main .About .about-right {
-    display: flex;
-    justify-content: center;
-  }
-  main .About .about-right img {
-    width: 50vh;
-    height: 75vh;
+  main .About .about-right .about-image {
+    width: 100%;
   }
 }
 
@@ -175,6 +132,14 @@
   }
   main .Portfolio-layout div .first-line {
     height: auto;
+  }
+}
+@media screen and (min-width: 460px) and (max-width: 768px) {
+  main .Portfolio-layout div {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+    width: 75%;
+    margin: 0px auto;
   }
 }
 @media screen and (max-width: 800px) {
@@ -256,3 +221,4 @@
     display: flex;
   }
 }
+

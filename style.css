@@ -204,6 +204,7 @@ main .About .about-right {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
 }
 main .About .about-right .about-image {
   width: 291px;

@@ -237,6 +237,7 @@ main .Albums article aside {
   background-position: center;
   background-size: cover;
   position: relative;
+  border-radius: 4%;
 }
 main .Albums article aside .overlay {
   position: absolute;
@@ -250,6 +251,7 @@ main .Albums article aside .overlay {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4%;
 }
 main .Albums article aside .overlay h1 {
   font-size: 40px;

@@ -243,6 +243,13 @@
     display: flex;
   }
 }
-
-
-
+@media screen and (min-width: 953px) and (max-width: 1648px) {
+  main .About .about-left p {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1648px) {
+  main .About .about-left p {
+    width: 60%;
+  }
+}
